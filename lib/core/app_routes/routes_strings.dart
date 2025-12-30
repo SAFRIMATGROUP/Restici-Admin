@@ -1,0 +1,34 @@
+sealed class RoutesStrings {
+  static const String mainScreen = '/main-screen';
+  static const String homeScreen = '/dashoard-screen';
+  static const String settings = '/settings-screen';
+  static const String dashboard = '/dashboard-screen';
+  static const String diagnostics = '/diagnostics-screen';
+  static const String controls = '/controls-screen';
+  static const String  addProduct = '/add-product';
+  static const String update = '/update-product-screen';
+  static const String users = '/users-screen';
+  static const String orders = '/orders-screen';
+  static const String banners = '/banners-screen';
+  static const String addBannerImage = '/add-banniere-image';
+  static const String allProduct = '/all-product';
+  static const String login = '/login';
+  static const String analytique = '/Analytique-page';
+  static const String category = '/category-page';
+  static const String inventaire = '/inventaire-page';
+  static const String promo = '/promotion-page';
+  static const String client = '/clients-page';
+  static const String avis = '/avis-page';
+  static const String support = '/support-page';
+  static const String expedition = '/expedition-page';
+  static const String retour = '/retour-page';
+  static const String campagne = '/campagne-page';
+  static const String contenu = '/contenu-page';
+  static const String bannier = '/banniere-page';
+  static const String finance = '/finance-page';
+  static const String employe = '/employes-page';
+  static const String setting = '/setting-page';
+  static const String generalSetting  = '/general-setting-page';
+  static const String paymentSetting  = '/payment-setting-page';
+  static const String shippingSetting = '/shipping-setting-page';
+}
