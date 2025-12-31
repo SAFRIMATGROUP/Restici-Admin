@@ -67,7 +67,7 @@ class GlobalAppbar extends StatelessWidget implements PreferredSizeWidget {
     if (titleText != null) {
       return AppText(
         titleText!,
-        style: _isSub ? AppTextStyle.style16Bold : AppTextStyle.style24SemiBold,
+        //fontWeight: _isSub ? AppTextStyle.style16Bold : AppTextStyle.style24SemiBold,
       );
     }
 

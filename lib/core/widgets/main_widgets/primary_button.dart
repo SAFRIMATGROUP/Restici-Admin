@@ -84,10 +84,10 @@ class PrimaryButton extends StatelessWidget {
               children: [
                 AppText(
                   text,
-                  style: textStyle ??
-                      AppTextStyle.style18Medium.copyWith(
+                  /*style: textStyle ?? AppTextStyle.style18Medium.copyWith(
                         color: textColor ?? Colors.black,
-                      ),
+                      ),*/
+                  color: textColor ?? Colors.black,
                 ),
                 const HorizontalSpace(8),
                 if (svgIconPath != null)

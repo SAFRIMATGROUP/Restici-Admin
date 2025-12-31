@@ -52,9 +52,7 @@ class AppDropDown<T> extends StatelessWidget {
           child: Center(
             child: AppText(
               title,
-              style: AppTextStyle.style14Light.copyWith(
-                color: AppColors.white,
-              ),
+              color: AppColors.white,
             ),
           ),
         ),

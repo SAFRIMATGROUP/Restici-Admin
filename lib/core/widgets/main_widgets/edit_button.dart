@@ -21,7 +21,7 @@ class EditButton extends StatelessWidget {
         decoration: BoxDecoration(borderRadius: BorderRadius.circular(5.r)),
         child: AppText(
           LocaleKeys.edit.tr(context: context),
-          style: AppTextStyle.style14Medium.copyWith(color: AppColors.zn300),
+            color: AppColors.zn300
         ),
       ),
     );

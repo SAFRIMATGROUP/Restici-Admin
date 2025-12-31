@@ -18,7 +18,8 @@ class WorkoutSetsItem extends StatelessWidget {
       ),
       child: AppText(
         title,
-        style: AppTextStyle.style12Light.copyWith(color: AppColors.zn200),
+        //style: AppTextStyle.style12Light.copyWith(color: AppColors.zn200),
+          color: AppColors.zn200
       ),
     );
   }

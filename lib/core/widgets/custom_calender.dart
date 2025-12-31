@@ -29,11 +29,13 @@ class _CustomCalenderState extends State<CustomCalender> {
       children: [
         AppText(
           getMonth(),
-          style: AppTextStyle.style16SemiBold.copyWith(color: AppColors.zn25),
+          //style: AppTextStyle.style16SemiBold.copyWith(color: AppColors.zn25),
+            color: AppColors.zn25
         ),
         AppText(
           getYear(),
-          style: AppTextStyle.style12Medium.copyWith(color: AppColors.zn300),
+          //style: AppTextStyle.style12Medium.copyWith(color: AppColors.zn300),
+            color: AppColors.zn300
         ),
         const VerticalSpace(10),
         Center(

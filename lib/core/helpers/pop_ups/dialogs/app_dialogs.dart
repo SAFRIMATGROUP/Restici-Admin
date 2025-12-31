@@ -23,7 +23,7 @@ sealed class AppDialogs {
                 backgroundColor: Colors.black,
                 // textStyle: AppTextStyle.style16Weight600,
               ),
-              child: const AppText('Ok'),
+              child: AppText('Ok'),
             ),
           ],
         );
@@ -50,7 +50,7 @@ sealed class AppDialogs {
               AppText(
                 // message ?? LocaleKeys.pleaseLoginToContinue.tr(),
                 '',
-                style: AppTextStyle.style12Light,
+                //style: AppTextStyle.style12Light,
               ),
             ],
           ),

@@ -46,7 +46,8 @@ class AppErrorWidget extends StatelessWidget {
               failure?.message ?? '',
               textAlign: TextAlign.center,
               maxLines: 3,
-              style: const TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
+              //style: const TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
+                fontSize: 23, fontWeight: FontWeight.bold
             ),
             const Gap(30),
           ],

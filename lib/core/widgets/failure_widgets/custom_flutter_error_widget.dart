@@ -28,7 +28,7 @@ class CustomFlutterErrorWidget extends StatelessWidget {
               kDebugMode
                   ? errorDetails.summary.toString()
                   : 'Oops! Something went wrong!',
-              style: AppTextStyle.style18SemiBold,
+              //style: AppTextStyle.style18SemiBold,
               maxLines: 30,
             ),
           ],

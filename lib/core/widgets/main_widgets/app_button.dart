@@ -1,6 +1,7 @@
 import 'package:restici_admin/core/app_themes/colors/app_colors.dart';
 import 'package:restici_admin/core/app_themes/text_style/app_text_style.dart';
 import 'package:restici_admin/core/utils/app_constants.dart';
+import 'package:restici_admin/core/widgets/loading_widget/app_loader.dart';
 import 'package:restici_admin/core/widgets/main_widgets/app_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
@@ -21,7 +22,7 @@ class AppButton extends StatelessWidget {
     this.fixedSize,
   });
 
-  const AppButton.expand({
+ /* const AppButton.expand({
     super.key,
     required this.text,
     this.textStyle,
@@ -34,7 +35,7 @@ class AppButton extends StatelessWidget {
     this.padding,
     this.isLoading = false,
     this.fixedSize,
-  });
+  });*/
 
   final String text;
   final TextStyle? textStyle;
@@ -69,17 +70,15 @@ class AppButton extends StatelessWidget {
               onPressed: isLoading ? () {} : onPressed,
               child: isLoading
                   ? const Center(
-                      child: SpinKitThreeBounce(
+                      child: /*SpinKitThreeBounce(
                         color: AppColors.white,
                         size: 35,
-                      ),
+                      ),*/
+                      AppLoader.pagination(color: Colors.white, strokeWidth: 2,)
                     )
                   : AppText(
                       text,
-                      style: textStyle ??
-                          AppTextStyle.style18SemiBold.copyWith(
-                            color: textColor ?? Colors.white,
-                          ),
+
                     ),
             ),
           ),
@@ -100,16 +99,16 @@ class AppButton extends StatelessWidget {
         ),
         onPressed: isLoading ? () {} : onPressed,
         child: isLoading
-            ? const SpinKitThreeBounce(
+            ? /*
+            SpinKitThreeBounce(
                 color: AppColors.white,
                 size: 35,
               )
+            */
+        const AppLoader.pagination(color: Colors.white, strokeWidth: 2,)
             : AppText(
                 text,
-                style: textStyle ??
-                    AppTextStyle.style18SemiBold.copyWith(
-                      color: textColor ?? Colors.white,
-                    ),
+
               ),
       );
     }

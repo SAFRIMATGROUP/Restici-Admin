@@ -83,11 +83,10 @@ extension ShowSnakbarExtension on BuildContext {
         content: AppText(
           text,
           maxLines: 3,
-          style: TextStyle(
-            color: textColor ?? Colors.white,
-            fontWeight: FontWeight.bold,
-            fontSize: 14.sp,
-          ),
+          //style: TextStyle(),
+          color: textColor ?? Colors.white,
+          fontWeight: FontWeight.bold,
+          fontSize: 14.sp,
           textAlign: TextAlign.center,
         ),
       ),

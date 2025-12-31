@@ -29,10 +29,12 @@ class AccountSingleTile extends StatelessWidget {
       onTap: onTap,
       child: Row(
         children: [
-          AppText(title, style: AppTextStyle.style16Regular),
+          AppText(title, //style: AppTextStyle.style16Regular
+          ),
           const Spacer(),
           if (trailingText != null) ...[
-            AppText(trailingText!, style: AppTextStyle.style16Regular),
+            AppText(trailingText!,// style: AppTextStyle.style16Regular
+            ),
             const HorizontalSpace(16),
           ],
           Visibility(

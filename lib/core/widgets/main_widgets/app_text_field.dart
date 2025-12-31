@@ -24,6 +24,8 @@ class AppTextField extends StatelessWidget {
     this.needBorder = true,
     this.onChanged,
     this.maxLines,
+    this.fillColor,
+    this.cursorColor,
     this.keyboardType,
   });
 
@@ -32,6 +34,8 @@ class AppTextField extends StatelessWidget {
   final FocusNode? focusNode;
   final String? label;
   final String? hint;
+  final Color? fillColor;
+  final Color? cursorColor;
   final TextStyle? hintStyle;
   final Widget? suffixIcon;
   final Widget? prefixIcon;
@@ -53,9 +57,8 @@ class AppTextField extends StatelessWidget {
         children: [
           AppText(
             label!,
-            style: AppTextStyle.style14Regular.copyWith(
-              color: AppColors.labelTextColor,
-            ),
+            //style: AppTextStyle.style14Regular.copyWith(),
+            color: AppColors.labelTextColor,
           ),
           const VerticalSpace(8),
           buildTextFormField(context),
@@ -73,10 +76,10 @@ class AppTextField extends StatelessWidget {
       focusNode: focusNode,
       keyboardType: keyboardType,
       controller: controller,
-      style: AppTextStyle.style12Medium,
+      //style: AppTextStyle.style12Medium,
       onChanged: onChanged,
       validator: validator,
-      cursorColor: AppColors.mainColor,
+      cursorColor: cursorColor,
       onFieldSubmitted: onFieldSubmitted,
       maxLines: maxLines ?? 1,
       onTapOutside: (event) {
@@ -86,16 +89,14 @@ class AppTextField extends StatelessWidget {
       },
       decoration: InputDecoration(
         hintText: required ? '$hint*' : hint,
-        hintStyle:
-        hintStyle ??
-            AppTextStyle.style12Medium.copyWith(color: AppColors.hintColor),
+        //hintStyle: hintStyle ?? AppTextStyle.style12Medium.copyWith(color: AppColors.hintColor),
         contentPadding: const EdgeInsets.symmetric(
           horizontal: 24,
           vertical: 16,
         ),
         isDense: true,
         filled: true,
-        fillColor: AppColors.fillColor,
+        fillColor: fillColor, //AppColors.fillColor,
         suffixIcon: suffixIcon,
         prefixIcon: prefixIcon,
         border: OutlineInputBorder(

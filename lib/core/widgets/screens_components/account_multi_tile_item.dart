@@ -33,7 +33,8 @@ class AccountMultiTileItem extends StatelessWidget {
             const VerticalSpace(12),
             Row(
               children: [
-                AppText(params.title, style: AppTextStyle.style16Regular),
+                AppText(params.title, //style: AppTextStyle.style16Regular
+                ),
                 const Spacer(),
                 Visibility(
                   visible: params.trailingSvgIcon != null,

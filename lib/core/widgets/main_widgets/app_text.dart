@@ -1,20 +1,24 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AppText extends StatelessWidget {
-  const AppText(
+   AppText(
     this.text, {
     super.key,
-    this.style,
+    this.fontSize= 16,
     this.maxLines,
     this.overflow,
+    this.fontWeight,
     this.textAlign,
+    this.color,
     this.textDirection,
   });
 
   final String text;
-  final TextStyle? style;
-
+  final double fontSize;
+  final FontWeight? fontWeight;
   final int? maxLines;
+        Color? color;
   final TextOverflow? overflow;
   final TextAlign? textAlign;
   final TextDirection? textDirection;
@@ -23,8 +27,12 @@ class AppText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
-      style: style,
-      maxLines: maxLines ?? 1,
+      style: GoogleFonts.montserrat(
+        fontSize: fontSize ,
+        fontWeight: fontWeight,
+        color: color,
+      ),
+      maxLines: maxLines ,
       overflow: overflow ?? TextOverflow.ellipsis,
       textAlign: textAlign,
       textDirection: textDirection,

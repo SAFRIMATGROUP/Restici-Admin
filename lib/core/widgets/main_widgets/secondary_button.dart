@@ -80,8 +80,9 @@ class SecondaryButton extends StatelessWidget {
               children: [
                 AppText(
                   text,
-                  style: textStyle ??
-                      AppTextStyle.style18Medium.copyWith(color: textColor ?? AppColors.zn25),
+                  /*style: textStyle ??
+                      AppTextStyle.style18Medium.copyWith(color: textColor ?? AppColors.zn25),*/
+                    color: textColor ?? AppColors.zn25
                 ),
                 Visibility(
                   visible: svgIconPath != null,

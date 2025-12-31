@@ -1,19 +1,18 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:restici_admin/core/app_routes/routes_strings.dart';
+import 'package:restici_admin/screens/auth/login_screen.dart';
 import 'package:restici_admin/screens/main_screen.dart';
 import 'package:restici_admin/screens/principale/dashboard_screen.dart';
 
-void main() {
-  runApp(
-    const MyApp()
-   /*MultiProvider(
-       providers: [
-         //ChangeNotifierProvider(create: (_) => AppRouter()),
-       ],
-     child:
-   )*/
+import 'firebase_options.dart';
+
+Future<void> main() async {
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
   );
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -30,9 +29,10 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       //home: const ,
-      initialRoute: RoutesStrings.homeScreen,
+      initialRoute: RoutesStrings.login,
       routes: {
         RoutesStrings.homeScreen: (context) => const DashboardScreen(),
+        RoutesStrings.login: (context) => const LoginScreen(),
       },
     );
   }
