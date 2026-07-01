@@ -1,0 +1,214 @@
+{
+  "project_info": {
+    "project_number": "813037135797",
+    "project_id": "rest-ici-burkina",
+    "storage_bucket": "rest-ici-burkina.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813037135797:android:d12429145e13f6cf689bfc",
+        "android_client_info": {
+          "package_name": "com.safrimat.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813037135797-ti2nq8ah3vg9i76n8nj2e7oqe8roq4p4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.safrimat.driver",
+            "certificate_hash": "f7f9fec2fa4545f2b4789627dd49c9f679643ab6"
+          }
+        },
+        {
+          "client_id": "813037135797-3u4f17sjncmu3qevu0ao8e7dbiula4dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2rr86uAcsIGjLTmX4lbwQOnfgoid5E10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813037135797-3u4f17sjncmu3qevu0ao8e7dbiula4dn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "813037135797-38oulioojfovl2ubrmq3a38sos10gbt4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.safrimat.moveItAdmin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813037135797:android:29cd0bb4302bf9d5689bfc",
+        "android_client_info": {
+          "package_name": "com.safrimat.move_it_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813037135797-3u4f17sjncmu3qevu0ao8e7dbiula4dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2rr86uAcsIGjLTmX4lbwQOnfgoid5E10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813037135797-3u4f17sjncmu3qevu0ao8e7dbiula4dn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "813037135797-38oulioojfovl2ubrmq3a38sos10gbt4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.safrimat.moveItAdmin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813037135797:android:795e39651a369177689bfc",
+        "android_client_info": {
+          "package_name": "com.safrimat.vita_market_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813037135797-3u4f17sjncmu3qevu0ao8e7dbiula4dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2rr86uAcsIGjLTmX4lbwQOnfgoid5E10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813037135797-3u4f17sjncmu3qevu0ao8e7dbiula4dn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "813037135797-38oulioojfovl2ubrmq3a38sos10gbt4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.safrimat.moveItAdmin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813037135797:android:954ca8c1a92b06dd689bfc",
+        "android_client_info": {
+          "package_name": "com.safrimatbf.rest_ici_burkina"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813037135797-a72ot3e5tueme6ctm17mcp0r6p9cubom.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.safrimatbf.rest_ici_burkina",
+            "certificate_hash": "22c9d5fdf02559b4d025ed3e53913385b372d56b"
+          }
+        },
+        {
+          "client_id": "813037135797-b38lcne9nun8461cec4ln3864cvlsb5f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.safrimatbf.rest_ici_burkina",
+            "certificate_hash": "f7f9fec2fa4545f2b4789627dd49c9f679643ab6"
+          }
+        },
+        {
+          "client_id": "813037135797-3u4f17sjncmu3qevu0ao8e7dbiula4dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2rr86uAcsIGjLTmX4lbwQOnfgoid5E10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813037135797-3u4f17sjncmu3qevu0ao8e7dbiula4dn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "813037135797-38oulioojfovl2ubrmq3a38sos10gbt4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.safrimat.moveItAdmin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813037135797:android:09475aea62400e57689bfc",
+        "android_client_info": {
+          "package_name": "com.safrimatbf.restici_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813037135797-3u4f17sjncmu3qevu0ao8e7dbiula4dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2rr86uAcsIGjLTmX4lbwQOnfgoid5E10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813037135797-3u4f17sjncmu3qevu0ao8e7dbiula4dn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "813037135797-38oulioojfovl2ubrmq3a38sos10gbt4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.safrimat.moveItAdmin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

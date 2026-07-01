@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>813037135797-eco5hcduuv1c8sgcnqbajtk849i5im95.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.813037135797-eco5hcduuv1c8sgcnqbajtk849i5im95</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>813037135797-a72ot3e5tueme6ctm17mcp0r6p9cubom.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB0l0f1Evjy9wlOjIj_n6EoLITDA8kMf_s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>813037135797</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.safrimatbf.resticiAdmin</string>
+	<key>PROJECT_ID</key>
+	<string>rest-ici-burkina</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rest-ici-burkina.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:813037135797:ios:947c5b88a1c91fcc689bfc</string>
+</dict>
+</plist>
